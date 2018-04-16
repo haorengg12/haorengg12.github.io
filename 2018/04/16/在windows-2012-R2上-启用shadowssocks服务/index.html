@@ -17,7 +17,7 @@
 <!--<![endif]-->
 
 <head>
-  <title>Archives: 2018 | 黄黄君的小站</title>
+  <title>在windows 2012 R2上 启用shadowssocks服务 | 黄黄君的小站</title>
   <!-- Meta data -->
     <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" >
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
@@ -59,7 +59,7 @@
 </head>
 
 <!--
-<body class="home-template">
+<body class="post-template">
 -->
 <body id="index" class="lightnav animsition">
 
@@ -166,108 +166,68 @@
         <!-- ============================ Header & Logo bar =========================== -->
 
 
-      <!-- ============================ Hero Image =========================== -->
-
-<section id="hero" class="scrollme">
-    <div class="container-fluid element-img" style="background: url(/img/bg_img.jpg) no-repeat center center fixed;background-size: cover">
-        <div class="row">
-            <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 vertical-align cover boost text-center">
-                <div class="center-me animateme" data-when="exit" data-from="0" data-to="0.6" data-opacity="0" data-translatey="100">
-                    <div>
-                        
-                        <h2></h2>
-                        <p></p>
-                        
-                        <h2></h2>
-                        <p></p>
-                        
-
-                    </div>
-                </div>
-            </div>
-            <!-- // .col-md-12 -->
-        </div>
-        <div class="herofade beige-dk"></div>
-    </div>
-</section>
-
-<!-- Height spacing helper -->
-<div class="heightblock"></div>
-<!-- // End height spacing helper -->
-
-<!-- ============================ END Hero Image =========================== -->
-
-
-
-
-<section id="services">
+      
+<section id="intro">
     <div class="container">
-        <div class="row">
-            <div class="col-md-10 col-md-offset-1">
-                <div class="row boxes">
-                    
-                    
-                        
-                        
-                        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 wow fadeInUp" data-wow-delay="0.3s">
-                            
-                              <h4 class="title"><a href="/2018/04/16/在windows-2012-R2上-启用shadowssocks服务/">在windows 2012 R2上 启用shadowssocks服务</a></h4>
-                            
-                            <p><time datetime="2018-04-16T11:43:09.000Z"><a href="/2018/04/16/在windows-2012-R2上-启用shadowssocks服务/">2018-04-16</a></time></p>
-                        </div>
-                    
-                        
-                        
-                        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 wow fadeInUp" data-wow-delay="0.3s">
-                            
-                              <h4 class="title"><a href="/2018/04/13/关于雾霾检测的思考/">关于雾霾检测的思考</a></h4>
-                            
-                            <p><time datetime="2018-04-13T10:47:41.000Z"><a href="/2018/04/13/关于雾霾检测的思考/">2018-04-13</a></time></p>
-                        </div>
-                    
-                        
-                        
-                        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 wow fadeInUp" data-wow-delay="0.3s">
-                            
-                              <h4 class="title"><a href="/2018/04/13/有关于统计学习/">有关于统计学习</a></h4>
-                            
-                            <p><time datetime="2018-04-13T03:24:37.000Z"><a href="/2018/04/13/有关于统计学习/">2018-04-13</a></time></p>
-                        </div>
-                    
-                        
-                        
-                        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 wow fadeInUp" data-wow-delay="0.3s">
-                            
-                              <h4 class="title"><a href="/2018/04/13/20180413/">20180413</a></h4>
-                            
-                            <p><time datetime="2018-04-13T02:56:24.000Z"><a href="/2018/04/13/20180413/">2018-04-13</a></time></p>
-                        </div>
-                    
-                        
-                            </div><div class="row boxes">
-                            
-                        
-                        
-                        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 wow fadeInUp" data-wow-delay="0.3s">
-                            
-                              <h4 class="title"><a href="/2018/01/06/这里是黄黄君的小站/">欢迎你~来访者</a></h4>
-                            
-                            <p><time datetime="2018-01-06T03:19:53.000Z"><a href="/2018/01/06/这里是黄黄君的小站/">2018-01-06</a></time></p>
-                        </div>
-                    
-                </div>
-            </div>    
+        <div class="row col-md-offset-2">
+            <div class="col-md-8">
+    			<span class="post-meta">
+      <time datetime="2018-04-16T11:43:09.000Z" itemprop="datePublished">
+          2018-04-16
+      </time>
+    
+</span>
+                <h1>在windows 2012 R2上 启用shadowssocks服务</h1>
+            </div>
         </div>
-    </div>
-</section> 
+        <div class="col-md-8 col-md-offset-2">
+      		<p>#在windows 2012 R2上 启用shadowssocks服务</p>
+<p>Shadowsocks是一个轻量级隧道Socks5代理，可加密网络通道。</p>
+<p>##1、下载nodejs</p>
+<pre><code>首先要进入https://nodejs.org/，点击页面上的INSTALL安装相对应的node环境。
+</code></pre><p>##2、安装nodejs<br>    很简单，一路点下一步。</p>
+<p>##3、安装ShadowSocks</p>
+<pre><code>打开“开始-&gt;所有程序-&gt;Node.js-&gt;Node.js command prompt”，打开nodejs命令端，输入命令：
+npm install -g shadowsocks
+</code></pre><p>##4、设置ShadowSocks</p>
+<pre><code>首先找到shadowsocks安装目录，
+也就是下面的这个目录C:\Users\Administrator\AppData\Roaming\npm\node_modules\shadowsocks，
+然后找到config.json文件，编辑一下它。
 
-<section id="statement">
-    <div class="container text-center wow fadeInUp" data-wow-delay="0.5s">
-        <div class="row">
-            <p>最美的风景 是和你一起看到过的每一瞬间</p>
+ { 
+&quot;server&quot;:&quot;你的内网ip&quot;, 
+&quot;server_port&quot;:端口号（一般是443就行）, 
+&quot;local_address&quot;:&quot;127.0.0.1&quot;, 
+&quot;local_port&quot;:1080, 
+&quot;password&quot;:&quot;密码&quot;, 
+&quot;timeout&quot;:600, 
+&quot;method&quot;:&quot;加密算法&quot;
+}
+</code></pre><p>##5、运行shadowsocks</p>
+<pre><code>运行服务端 打开Node.js command prompt 在弹出的命令行中输入：        
+ssserver
+</code></pre><p>##6.接下来就是他的网络连接状态<br>    注意：Node.js command prompt不可以关，而且服务开启可能会导致服务器高负载！！</p>
+
+            <div class="clearfix"></div>
+            <hr class="nogutter">
         </div>
+        <nav class="pagination" role="pagination">
+    
+    
+    <a class="pull-right" href="/2018/04/13/关于雾霾检测的思考/">
+        关于雾霾检测的思考 →
+    </a>
+    
+</nav>
+
+        <div class="duoshuo">
+
+
+</div>
     </div>
 </section>
+
+
       
 <!-- ============================ Footer =========================== -->
 
