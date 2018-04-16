@@ -181,16 +181,12 @@
             </div>
         </div>
         <div class="col-md-8 col-md-offset-2">
-      		<p>#在windows 2012 R2上 启用shadowssocks服务</p>
-<p>Shadowsocks是一个轻量级隧道Socks5代理，可加密网络通道。</p>
-<p>##1、下载nodejs</p>
-<pre><code>首先要进入https://nodejs.org/，点击页面上的INSTALL安装相对应的node环境。
-</code></pre><p>##2、安装nodejs<br>    很简单，一路点下一步。</p>
-<p>##3、安装ShadowSocks</p>
-<pre><code>打开“开始-&gt;所有程序-&gt;Node.js-&gt;Node.js command prompt”，打开nodejs命令端，输入命令：
+      		<h1 id="在windows-2012-R2上-启用shadowssocks服务"><a href="#在windows-2012-R2上-启用shadowssocks服务" class="headerlink" title="在windows 2012 R2上 启用shadowssocks服务"></a>在windows 2012 R2上 启用shadowssocks服务</h1><p>Shadowsocks是一个轻量级隧道Socks5代理，可加密网络通道。</p>
+<h2 id="1、下载nodejs"><a href="#1、下载nodejs" class="headerlink" title="1、下载nodejs"></a>1、下载nodejs</h2><pre><code>首先要进入https://nodejs.org/，点击页面上的INSTALL安装相对应的node环境。
+</code></pre><h2 id="2、安装nodejs"><a href="#2、安装nodejs" class="headerlink" title="2、安装nodejs"></a>2、安装nodejs</h2><pre><code>很简单，一路点下一步。
+</code></pre><h2 id="3、安装ShadowSocks"><a href="#3、安装ShadowSocks" class="headerlink" title="3、安装ShadowSocks"></a>3、安装ShadowSocks</h2><pre><code>打开“开始-&gt;所有程序-&gt;Node.js-&gt;Node.js command prompt”，打开nodejs命令端，输入命令：
 npm install -g shadowsocks
-</code></pre><p>##4、设置ShadowSocks</p>
-<pre><code>首先找到shadowsocks安装目录，
+</code></pre><h2 id="4、设置ShadowSocks"><a href="#4、设置ShadowSocks" class="headerlink" title="4、设置ShadowSocks"></a>4、设置ShadowSocks</h2><pre><code>首先找到shadowsocks安装目录，
 也就是下面的这个目录C:\Users\Administrator\AppData\Roaming\npm\node_modules\shadowsocks，
 然后找到config.json文件，编辑一下它。
 
@@ -203,11 +199,10 @@ npm install -g shadowsocks
 &quot;timeout&quot;:600, 
 &quot;method&quot;:&quot;加密算法&quot;
 }
-</code></pre><p>##5、运行shadowsocks</p>
-<pre><code>运行服务端 打开Node.js command prompt 在弹出的命令行中输入：        
+</code></pre><h2 id="5、运行shadowsocks"><a href="#5、运行shadowsocks" class="headerlink" title="5、运行shadowsocks"></a>5、运行shadowsocks</h2><pre><code>运行服务端 打开Node.js command prompt 在弹出的命令行中输入：        
 ssserver
-</code></pre><p>##6.接下来就是他的网络连接状态<br>    注意：Node.js command prompt不可以关，而且服务开启可能会导致服务器高负载！！</p>
-
+</code></pre><h2 id="6、接下来就是他的网络连接状态"><a href="#6、接下来就是他的网络连接状态" class="headerlink" title="6、接下来就是他的网络连接状态"></a>6、接下来就是他的网络连接状态</h2><pre><code>注意：Node.js command prompt不可以关，而且服务开启可能会导致服务器高负载！！
+</code></pre>
             <div class="clearfix"></div>
             <hr class="nogutter">
         </div>
