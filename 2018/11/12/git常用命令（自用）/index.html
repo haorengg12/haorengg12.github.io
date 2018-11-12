@@ -17,7 +17,7 @@
 <!--<![endif]-->
 
 <head>
-  <title>Archives: 2018/4 | 黄黄君的小站</title>
+  <title>git常用命令 | 黄黄君的小站</title>
   <!-- Meta data -->
     <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" >
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
@@ -59,7 +59,7 @@
 </head>
 
 <!--
-<body class="home-template">
+<body class="post-template">
 -->
 <body id="index" class="lightnav animsition">
 
@@ -166,108 +166,78 @@
         <!-- ============================ Header & Logo bar =========================== -->
 
 
-      <!-- ============================ Hero Image =========================== -->
-
-<section id="hero" class="scrollme">
-    <div class="container-fluid element-img" style="background: url(/img/bg_img.jpg) no-repeat center center fixed;background-size: cover">
-        <div class="row">
-            <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 vertical-align cover boost text-center">
-                <div class="center-me animateme" data-when="exit" data-from="0" data-to="0.6" data-opacity="0" data-translatey="100">
-                    <div>
-                        
-                        <h2></h2>
-                        <p></p>
-                        
-                        <h2></h2>
-                        <p></p>
-                        
-
-                    </div>
-                </div>
-            </div>
-            <!-- // .col-md-12 -->
-        </div>
-        <div class="herofade beige-dk"></div>
-    </div>
-</section>
-
-<!-- Height spacing helper -->
-<div class="heightblock"></div>
-<!-- // End height spacing helper -->
-
-<!-- ============================ END Hero Image =========================== -->
-
-
-
-
-<section id="services">
+      
+<section id="intro">
     <div class="container">
-        <div class="row">
-            <div class="col-md-10 col-md-offset-1">
-                <div class="row boxes">
-                    
-                    
-                        
-                        
-                        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 wow fadeInUp" data-wow-delay="0.3s">
-                            
-                              <h4 class="title"><a href="/2018/04/16/在windows-2012-R2上-启用shadowssocks服务/">在windows 2012 R2上 启用shadowssocks服务</a></h4>
-                            
-                            <p><time datetime="2018-04-16T11:43:09.000Z"><a href="/2018/04/16/在windows-2012-R2上-启用shadowssocks服务/">2018-04-16</a></time></p>
-                        </div>
-                    
-                        
-                        
-                        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 wow fadeInUp" data-wow-delay="0.3s">
-                            
-                              <h4 class="title"><a href="/2018/04/16/关于新建ecs服务器的网页浏览/">关于新建ecs服务器的网页浏览</a></h4>
-                            
-                            <p><time datetime="2018-04-16T06:02:43.000Z"><a href="/2018/04/16/关于新建ecs服务器的网页浏览/">2018-04-16</a></time></p>
-                        </div>
-                    
-                        
-                        
-                        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 wow fadeInUp" data-wow-delay="0.3s">
-                            
-                              <h4 class="title"><a href="/2018/04/13/关于雾霾检测的思考/">关于雾霾检测的思考</a></h4>
-                            
-                            <p><time datetime="2018-04-13T10:47:41.000Z"><a href="/2018/04/13/关于雾霾检测的思考/">2018-04-13</a></time></p>
-                        </div>
-                    
-                        
-                        
-                        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 wow fadeInUp" data-wow-delay="0.3s">
-                            
-                              <h4 class="title"><a href="/2018/04/13/有关于统计学习/">有关于统计学习</a></h4>
-                            
-                            <p><time datetime="2018-04-13T03:24:37.000Z"><a href="/2018/04/13/有关于统计学习/">2018-04-13</a></time></p>
-                        </div>
-                    
-                        
-                            </div><div class="row boxes">
-                            
-                        
-                        
-                        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 wow fadeInUp" data-wow-delay="0.3s">
-                            
-                              <h4 class="title"><a href="/2018/04/13/统计模式识别/">统计模式识别</a></h4>
-                            
-                            <p><time datetime="2018-04-13T02:56:24.000Z"><a href="/2018/04/13/统计模式识别/">2018-04-13</a></time></p>
-                        </div>
-                    
-                </div>
-            </div>    
+        <div class="row col-md-offset-2">
+            <div class="col-md-8">
+    			<span class="post-meta">
+      <time datetime="2018-11-12T02:31:54.000Z" itemprop="datePublished">
+          2018-11-12
+      </time>
+    
+    
+    | 
+    <a href='/tags/git/'>git</a>
+    
+    
+</span>
+                <h1>git常用命令</h1>
+            </div>
         </div>
-    </div>
-</section> 
+        <div class="col-md-8 col-md-offset-2">
+      		<h1 id="git常用命令（自用）"><a href="#git常用命令（自用）" class="headerlink" title="git常用命令（自用）"></a>git常用命令（自用）</h1><h2 id="初次使用"><a href="#初次使用" class="headerlink" title="初次使用"></a>初次使用</h2><ul>
+<li><h4 id="初始化一个git仓库"><a href="#初始化一个git仓库" class="headerlink" title="初始化一个git仓库"></a>初始化一个git仓库</h4> <code>git init</code></li>
+<li><h4 id="保存所有更改"><a href="#保存所有更改" class="headerlink" title="保存所有更改"></a>保存所有更改</h4> <code>git add .</code></li>
+<li><h4 id="保存某文件的更改"><a href="#保存某文件的更改" class="headerlink" title="保存某文件的更改"></a>保存某文件的更改</h4> <code>git add &lt;file&gt;</code></li>
+<li><h4 id="提交以及理由"><a href="#提交以及理由" class="headerlink" title="提交以及理由"></a>提交以及理由</h4> <code>git commit -m &quot;叙述为什么提交&quot;</code><h2 id="分支操作"><a href="#分支操作" class="headerlink" title="分支操作"></a>分支操作</h2></li>
+<li><h4 id="同步到远程服务器的master分支（比如github）"><a href="#同步到远程服务器的master分支（比如github）" class="headerlink" title="同步到远程服务器的master分支（比如github）"></a>同步到远程服务器的master分支（比如github）</h4> <code>git push -u origin master</code></li>
+<li><h4 id="查看所有分支"><a href="#查看所有分支" class="headerlink" title="查看所有分支"></a>查看所有分支</h4> <code>git branch</code></li>
+<li><h4 id="新建分支"><a href="#新建分支" class="headerlink" title="新建分支"></a>新建分支</h4> <code>git branch &lt;name&gt;</code></li>
+<li><h4 id="切换到name分支"><a href="#切换到name分支" class="headerlink" title="切换到name分支"></a>切换到name分支</h4> <code>git checkout &lt;name&gt;</code></li>
+<li><h4 id="创建并切换到name分支"><a href="#创建并切换到name分支" class="headerlink" title="创建并切换到name分支"></a>创建并切换到name分支</h4> <code>git checkout -b &lt;name&gt;</code></li>
+<li><h4 id="合并name分支到当前分支"><a href="#合并name分支到当前分支" class="headerlink" title="合并name分支到当前分支"></a>合并name分支到当前分支</h4> <code>git merge &lt;name&gt;</code></li>
+<li><h4 id="删除分支"><a href="#删除分支" class="headerlink" title="删除分支"></a>删除分支</h4> <code>git branch -d &lt;name&gt;</code><h2 id="版本控制"><a href="#版本控制" class="headerlink" title="版本控制"></a>版本控制</h2></li>
+<li><h4 id="查看当前分支的所有提交"><a href="#查看当前分支的所有提交" class="headerlink" title="查看当前分支的所有提交"></a>查看当前分支的所有提交</h4> <code>git log</code></li>
+<li><h4 id="回到某一版本（commit-id无需写全，至少写前几个字母、数字）"><a href="#回到某一版本（commit-id无需写全，至少写前几个字母、数字）" class="headerlink" title="回到某一版本（commit_id无需写全，至少写前几个字母、数字）"></a>回到某一版本（commit_id无需写全，至少写前几个字母、数字）</h4> <code>git reset --hard &lt;commit_id&gt;</code></li>
+<li><h4 id="回到上一个版本"><a href="#回到上一个版本" class="headerlink" title="回到上一个版本"></a>回到上一个版本</h4> <code>git reset --hard HEAD^</code></li>
+<li><h4 id="回到上上一个版本"><a href="#回到上上一个版本" class="headerlink" title="回到上上一个版本"></a>回到上上一个版本</h4> <code>git reset --hard HEAD^^</code></li>
+<li><h4 id="查看最近操作"><a href="#查看最近操作" class="headerlink" title="查看最近操作"></a>查看最近操作</h4> <code>git reflog</code><h2 id="版本号"><a href="#版本号" class="headerlink" title="版本号"></a>版本号</h2></li>
+<li><h4 id="新建版本号"><a href="#新建版本号" class="headerlink" title="新建版本号"></a>新建版本号</h4> <code>git tag &lt;tagname&gt;</code></li>
+<li><h4 id="创建带说明的版本号"><a href="#创建带说明的版本号" class="headerlink" title="创建带说明的版本号"></a>创建带说明的版本号</h4> <code>git tag -a &lt;tagname&gt; -m &quot; &quot;</code></li>
+<li><h4 id="查看当前所有版本号"><a href="#查看当前所有版本号" class="headerlink" title="查看当前所有版本号"></a>查看当前所有版本号</h4> <code>git tag</code></li>
+<li><h4 id="为某次commit添加版本号"><a href="#为某次commit添加版本号" class="headerlink" title="为某次commit添加版本号"></a>为某次commit添加版本号</h4> <code>git tag &lt;tag&gt;&lt;commit_id&gt;</code></li>
+<li><h4 id="详细查看某一个版本"><a href="#详细查看某一个版本" class="headerlink" title="详细查看某一个版本"></a>详细查看某一个版本</h4> <code>git show &lt;tagname&gt;</code><h2 id="搭建Git服务器"><a href="#搭建Git服务器" class="headerlink" title="搭建Git服务器"></a>搭建Git服务器</h2></li>
+<li>####<br> ``</li>
+<li>####<br> ``</li>
+<li>####<br> ``</li>
+<li>####<br> ``</li>
+<li>####<br> ``</li>
+<li><p>####<br> ``</p>
+<h2 id="添加远程仓库"><a href="#添加远程仓库" class="headerlink" title="添加远程仓库"></a>添加远程仓库</h2><p> 详见Github。。。</p>
+</li>
+</ul>
 
-<section id="statement">
-    <div class="container text-center wow fadeInUp" data-wow-delay="0.5s">
-        <div class="row">
-            <p>最美的风景 是和你一起看到过的每一瞬间</p>
+            <div class="clearfix"></div>
+            <hr class="nogutter">
         </div>
+        <nav class="pagination" role="pagination">
+    
+    
+    <a class="pull-right" href="/2018/09/25/pyopengl/">
+        py3.6.5 opengl →
+    </a>
+    
+</nav>
+
+        <div class="duoshuo">
+
+
+</div>
     </div>
 </section>
+
+
       
 <!-- ============================ Footer =========================== -->
 
