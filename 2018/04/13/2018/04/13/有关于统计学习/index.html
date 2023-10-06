@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<!--
+ ______  __  __   __              ___         __     
+/\__  _\/\ \/\ \ /\ \           /'___`\     /'__`\   
+\/_/\ \/\ \ \/'/'\ \ \         /\_\ /\ \   /\ \/\ \  
+   \ \ \ \ \ , <  \ \ \  __    \/_/// /__  \ \ \ \ \ 
+    \ \ \ \ \ \\`\ \ \ \L\ \      // /_\ \__\ \ \_\ \
+     \ \_\ \ \_\ \_\\ \____/     /\______/\_\\ \____/
+      \/_/  \/_/\/_/ \/___/      \/_____/\/_/ \/___/   Theme By Kieran, Hex-Dragon.
+-->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-CN" lang="zh-CN">
+
+<head>
+  <title>有关于统计学习 | 黄黄k的小站</title>
+  <!-- Meta data -->
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="generator" content="黄黄k的小站">
+    <meta name="author" content="Harley Huang">
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+
+    <!-- Favicon, (keep icon in root folder) -->
+    <link rel="Shortcut Icon" href="/img/favicon.ico" type="image/ico">
+
+    <link rel="alternate" href="/atom.xml" title="黄黄k的小站" type="application/atom+xml">
+    <link rel="stylesheet" href="/css/all.css" media="screen" type="text/css">
+    
+    <link rel="stylesheet" href="/highlightjs/vs.css" type="text/css">
+    
+
+    <!--[if IE 8]>
+    <link rel="stylesheet" type="text/css" href="/css/ie8.css" />
+    <![endif]-->
+
+    <!-- jQuery | Load our jQuery, with an alternative source fallback to a local version if request is unavailable -->
+    <script src="/js/jquery-1.11.1.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery-1.11.1.min.js"><\/script>')</script>
+
+    <!-- Load these in the <head> for quicker IE8+ load times -->
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="/js/html5shiv.min.js"></script>
+    <script src="/js/respond.min.js"></script>
+    <![endif]-->
+
+  
+  
+  
+
+  <style>.col-md-8.col-md-offset-2.opening-statement img{display:none;}</style>
+</head>
+
+<body id="index" class="lightnav animsition">
+      <!-- ============================ Off-canvas navigation =========================== -->
+
+    <div class="sb-slidebar sb-right sb-style-overlay sb-momentum-scrolling">
+        <div class="sb-close" aria-label="Close Menu" aria-hidden="true">
+            <img src="/img/close.png" alt="Close"/>
+        </div>
+        <!-- Lists in Slidebars -->
+        <ul class="sb-menu">
+            <li><a href="/" class="animsition-link" title="Home">Home</a></li>
+            <li><a href="/archives" class="animsition-link" title="archive">archives</a></li>
+            <!-- Dropdown Menu -->
+			 
+            <li>
+                <a class="sb-toggle-submenu">Works<span class="sb-caret"></span></a>
+                <ul class="sb-submenu">
+                    
+                        <li><a href="/" target="_BLANK" class="animsition-link">AAA</a></li>
+                    
+                        <li><a href="/atom.xml" target="_BLANK" class="animsition-link">BBB</a></li>
+                    
+                </ul>
+            </li>
+            
+            
+        	<li>
+        		<a class="sb-toggle-submenu">Categories<span class="sb-caret"></span></a>
+            	<ul class="sb-submenu">
+				  	
+				    <li><a href="/categories/Linux/Hexo/" class="animsition-link">Hexo<small>(1)</small></a></li>
+				    
+				    <li><a href="/categories/Linux/" class="animsition-link">Linux<small>(1)</small></a></li>
+				    
+				</ul>
+        	</li>
+			
+            
+            <li>
+                <a class="sb-toggle-submenu">Links<span class="sb-caret"></span></a>
+                <ul class="sb-submenu">
+                    
+                    <li><a target="_blank" rel="noopener" href="http://domain.com/" class="animsition-link">Name</a></li>
+                    
+                </ul>
+            </li>
+            
+        </ul>
+        <!-- Lists in Slidebars -->
+        <ul class="sb-menu secondary">
+            
+            <li><a href="/about.html" class="animsition-link" title="about">About</a></li>
+            <li><a href="/atom.xml" class="animsition-link" title="rss">RSS</a></li>
+        </ul>
+    </div>
+    
+    <!-- ============================ END Off-canvas navigation =========================== -->
+
+    <!-- ============================ #sb-site Main Page Wrapper =========================== -->
+
+    <div id="sb-site">
+        <!-- #sb-site - All page content should be contained within this id, except the off-canvas navigation itself -->
+
+        <!-- ============================ Header & Logo bar =========================== -->
+
+        <div id="navigation" class="navbar navbar-fixed-top">
+            <div class="navbar-inner">
+                <div class="container">
+                    <!-- Nav logo -->
+                    <div class="logo">
+                        <a href="/" title="Logo" class="animsition-link">
+                         <img src="/img/logo.png" alt="Logo" width="35px;"/> 
+                        </a>
+                    </div>
+                    <!-- // Nav logo -->
+                    <!-- Info-bar -->
+                    <nav>
+                        <ul class="nav">
+                            <li><a href="/" class="animsition-link">黄黄k的小站</a></li>
+                            <li class="nolink"><span>Always </span>Creative.</li>
+                            
+                            <li><a href="https://github.com/haorengg12" title="Github" target="_blank"><i class="icon-github"></i></a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li class="nolink"><span>Welcome!</span></li>
+                        </ul>
+                    </nav>
+                    <!--// Info-bar -->
+                </div>
+                <!-- // .container -->
+                <div class="learnmore sb-toggle-right">More</div>
+                <button type="button" class="navbar-toggle menu-icon sb-toggle-right" title="More">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar before"></span>
+                <span class="icon-bar main"></span>
+                <span class="icon-bar after"></span>
+                </button>
+            </div>
+            <!-- // .navbar-inner -->
+        </div>
+
+        <!-- ============================ Header & Logo bar =========================== -->
+
+
+      
+<section id="intro">
+    <div class="container">
+        <div class="row col-md-offset-2">
+            <div class="col-md-8">
+    			<span class="post-meta">
+      <time datetime="2018-04-13T03:24:37.000Z" itemprop="datePublished">
+          2018-04-13
+      </time>
+    
+    
+    | 
+    <a href='/tags/大数据/'>大数据</a>
+    
+    
+</span>
+                <h1>有关于统计学习</h1>
+            </div>
+        </div>
+        <div class="col-md-8 col-md-offset-2">
+      		<h2 id="1"><a href="#1" class="headerlink" title="1"></a>1</h2><p>.# 统计学习 #是关于计算机基于数据构建概率统计模型并运用模型对数据进行预测与分析的一门学科，又称为统计机器学习；</p>
+<p>特点：以计算机为平台；以数据为对象；以方法为中心；以概率论、统计学、信息论以及最优化理论等为理论依托；目的是实现对数据的预测和分析；</p>
+<p>三要素：模型、策略、算法；</p>
+<p>回归和分类区别：当待识别的对象变量是连续的，就是一个回归问题；反之就是一个分类问题</p>
+<h2 id="2"><a href="#2" class="headerlink" title="2"></a>2</h2><p>概率模型</p>
+<p>概率模型，给定一个用户的查询串，相对于该串存在一个包含所有相关文档的集合。我们把这样的集合看作是一个理想的结果文档集，在给出理想结果集后，我们能很容易得到结果文档。<br>这样我们可以把查询处理看作是对理想结果文档集属性的处理。问题是我们并不能确切地知道这些属性，我们所知道的是存在索引术语来表示这些属性。由于在查询期间这些属性都是不可见的，这就需要在初始阶段来估计这些属性。这种初始阶段的估计允许我们对首次检索的文档集合返回理想的结果集，并产生一个初步的概率描述。</p>
+<h2 id="3"><a href="#3" class="headerlink" title="3"></a>3</h2><p>三、统计学习对象及目的</p>
+<p>对象——数据。从数据出发，提取数据特征，抽象数据模型，发现数据知识，再回到对数据的分析及预测。<br>目的——对已有数据进行预测与分析（通过构建概率统计模型实现），来实现对未知数据进行预测与分析。</p>
+<p>一、统计学习<br>统计学习是关于计算机基于数据构建概率统计模型并运用模型对数据进行预测与分析的学科。又称统计机器习（statistical machine learning）。</p>
+<p>四、统计学习方法实现步骤</p>
+<p>1、得到一个有限的训练数据集合</p>
+<p>2、确定包含所有可能的模型的假设空间，及学习模型的集合</p>
+<p>3、确定模型选择的准则，即学习策略</p>
+<p>4、实现求解最优模型的算法，即学习算法</p>
+<p>5、通过学习方法选择最优模型</p>
+<p>6、利用学习的最优模型对新数据进行预测或分析</p>
+<h2 id="4"><a href="#4" class="headerlink" title="4"></a>4</h2><p>机器学习</p>
+<p>“傍晚小街路面上沁出微雨后的湿润，和煦的西风吹来，抬头看看天边的晚霞，嗯明天又是一个好天气。走到水果摊旁，挑了个根蒂蜷缩、敲起来声音浊响的青绿西瓜，一边满心期待着皮薄肉厚瓤甜的爽落感，一边愉快地想着，这学期狠下了工夫，基础概念弄得很清楚，算法作业也是信手拈来，这门课成绩一定差不了!”</p>
+<p>由经验可得：</p>
+<p>(1)由微湿路面、感到和风，看到晚霞，可知明天是好天；</p>
+<p>(2)由色泽青绿、根蒂蜷缩、敲声浊响，可知是好瓜；       </p>
+<p>(3)由下了工夫、弄清概念、做好作业、可知会取得好成绩.  </p>
+<p>以上经验由人为完成，如果考虑让机器来完成，即是机器学习。机器学习研究关于计算机从数据中产生“模型”的算法，也就是“学习算法”。</p>
+<p>现在让我们回到“统计学习方法实现步骤”:</p>
+<p>(1)得到一堆有限数目的瓜用于训练；</p>
+<p>(2)确定假设空间，这里仅有好瓜坏瓜；  </p>
+<p>(3)确定好瓜坏瓜的判别准则，即什么样的瓜才是好瓜；  </p>
+<p>(4)设计从输入到输出的算法：y&#x3D;f(x)(注意这里包含多个f(x))；  </p>
+<p>(5)确定最优f(x);  </p>
+<p>(6)用上一步选择的f(x)对新数据作预测分析</p>
+
+            <div class="clearfix"></div>
+            <hr class="nogutter">
+        </div>
+        <nav class="m-pagination col-md-8 col-md-offset-2 col-sm-24" role="pagination">
+    
+    <a class="pull-left" href="/2018/04/13/2018/04/13/%E5%85%B3%E4%BA%8E%E9%9B%BE%E9%9C%BE%E6%A3%80%E6%B5%8B%E7%9A%84%E6%80%9D%E8%80%83/" style="float: left;">
+        ← 关于雾霾检测的思考
+    </a>
+    
+    
+    <a class="pull-right" href="/2018/04/13/2018/04/13/%E7%BB%9F%E8%AE%A1%E6%A8%A1%E5%BC%8F%E8%AF%86%E5%88%AB/">
+        统计模式识别 →
+    </a>
+    
+</nav>
+
+        <div class="col-md-8 col-md-offset-2 col-sm-24"><script type="text/javascript">
+  /**
+   * 搜狐畅言
+   */
+
+  /*
+  document.write('<div id="SOHUCS" sid="' + window.location.pathname.slice(1) + '" ></div>');
+
+  window.onload = function () {
+    (function () {
+      var appid = 'cytXXXX';
+      var conf = 'prod_xxxxxxxxxxxxxxxxx';
+      var width = window.innerWidth || document.documentElement.clientWidth;
+      var loadJs = function (d, a, id) {
+        var c = document.getElementsByTagName("head")[0] || document.head || document.documentElement;
+        var b = document.createElement("script");
+        b.setAttribute("type", "text/javascript");
+        b.setAttribute("charset", "UTF-8");
+        b.setAttribute("src", d);
+        if (id) {
+          b.setAttribute("id", id);
+        }
+        if (typeof a === "function") {
+          if (window.attachEvent) {
+            b.onreadystatechange = function () {
+              var e = b.readyState;
+              if (e === "loaded" || e === "complete") {
+                b.onreadystatechange = null;
+                a()
+              }
+            }
+          } else {
+            b.onload = a
+          }
+        }
+        c.appendChild(b)
+      };
+
+      loadJs("https://changyan.sohu.com/upload/changyan.js", function () {
+        window.changyan.api.config({
+          appid: appid,
+          conf: conf
+        })
+      });
+    })();
+  }
+  */
+
+</script>
+</div>
+    </div>
+</section>
+
+
+      
+<!-- ============================ Footer =========================== -->
+
+<footer>
+    <div class="container">
+            <div class="copy">
+                <p>
+                    &copy; 2014<script>new Date().getFullYear()>2010&&document.write("-"+new Date().getFullYear());</script>, Content By Harley Huang. All Rights Reserved.
+                </p>
+                <p>Theme By <a target="_blank" rel="noopener" href="//go.kieran.top" style="color: #767D84">Kieran</a></p>
+            </div>
+            <div class="social">
+                <ul>
+                    
+                    <li><a href="https://github.com/haorengg12" title="Github" target="_blank"><i class="icon-github"></i></a>&nbsp;</li>
+                    
+                    
+                    
+                    
+                    
+                </ul>
+            </div>
+            <div class="clearfix"> </div>
+        </div>
+</footer>
+
+<!-- ============================ END Footer =========================== -->
+      <!-- Load our scripts -->
+<!-- Resizable 'on-demand' full-height hero -->
+<script type="text/javascript">
+    var resizeHero = function () {
+        var hero = $(".cover,.heightblock"),
+            window1 = $(window);
+        hero.css({
+            "height": window1.height()
+        });
+    };
+
+    resizeHero();
+
+    $(window).resize(function () {
+        resizeHero();
+    });
+</script>
+<script src="/js/plugins.min.js"></script><!-- Bootstrap core and concatenated plugins always load here -->
+<script src="/js/scripts.js"></script><!-- Theme scripts -->
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+$('#intro').find('img').each(function(){
+  var alt = this.alt;
+
+  if (alt){
+    $(this).after('<span class="caption" style="display:none">' + alt + '</span>');
+  }
+
+  $(this).wrap('<a href="' + this.src + '" title="' + alt + '" class="fancybox" rel="gallery" />');
+});
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
+</script>
+
+
+
+      
+      
+</body>
+</html>
